@@ -1,5 +1,5 @@
 # GET STARTED
-To learn more, you can check out the project documentation [[HERE]]. Before starting this project, make sure you understand the following points:
+To learn more, you can check out the project documentation [[HERE]](https://github.com/iqbalpurba26/BrainDiverseX-api/blob/main/ABOUT%20PROJECT.md). Before starting this project, make sure you understand the following points:
 
 - This repository consists of 2 main folders: API and WEBSITE. These folders run separately.
 - The API folder contains the API to connect the model with the Website. - The Website folder contains simple HTML and CSS files as the project's interface.
