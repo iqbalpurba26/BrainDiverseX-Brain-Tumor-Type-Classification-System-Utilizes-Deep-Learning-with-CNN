@@ -1,3 +1,4 @@
+"""endpoint.py"""
 import numpy as np
 import tensorflow as tf
 from fastapi import FastAPI, File, UploadFile
@@ -20,6 +21,16 @@ app.add_middleware(
 
 @app.post("/predict")
 def predict(image: UploadFile = File(...)):
+    """
+    The enpoint that will be called
+
+    Arg:
+    image: An image scan MRI
+
+    Return:
+    Classification tumor
+    """
+
     try:
         image_pil = Image.open(image.file).convert('RGB')
 
